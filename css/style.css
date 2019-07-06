@@ -1,0 +1,25 @@
+.board div {
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.board {
+    width: 466px;
+}
+
+body {
+    margin: 0 auto;
+    width: 466px;
+    text-align: center;
+}
+
+.output {
+    font-size: 2.5rem;
+    padding: 2.5rem;
+}
